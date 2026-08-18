@@ -95,7 +95,7 @@ The application styling and responsive layout can be customized in `App.css`.
 
 ## 🌐 Live Demo
 
-[Live Demo](YOUR_LIVE_DEMO_URL)
+https://shopbyolga.netlify.app/
 
 ## 👩‍💻 Credits
 
