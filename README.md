@@ -1,6 +1,6 @@
 # 🛍️ Shop
 
-A modern and responsive online clothing store built with React and Redux Toolkit.
+A  responsive demo version of a clothing store website  built with React and Redux Toolkit.
 
 The application allows users to browse clothing items, filter products by category, add products to a shopping cart, change quantities, remove items, and view the total price.
 
