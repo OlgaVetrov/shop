@@ -200,11 +200,13 @@ body {
   transition: background-color 0.3s, color 0.3s, transform 0.3s, font-size 0.3s;
 }
 
-.change:hover {
-  background-color: #555;
-  color: #f4eddd;
-  transform: scale(1.05);
-  font-size: 16px;
+@media (hover: hover) and (pointer: fine) {
+  .change:hover {
+    background-color: #555;
+    color: #f4eddd;
+    transform: scale(1.05);
+    font-size: 16px;
+  }
 }
 
 .change:active {
@@ -506,6 +508,7 @@ body {
   .contact-map iframe {
     height: 400px;
   }
+
 }
 
 @media (max-width: 500px) {
