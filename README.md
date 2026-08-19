@@ -18,39 +18,28 @@ Start the development server:
 
 npm run dev
 
-## 🛒 Usage
+## 🛒 Features
 
-Browse the available clothing items on the Shop page.
+- Browse clothing products
+- Filter products by category
+- Select All Categories to display all products
+- Add products to the shopping cart
+- Increase or decrease product quantities
+- Remove products from the cart
+- View the total number of items
+- View the total price
+- Persist cart data using localStorage
+- Navigate between Shop, About Us, and Contact Us pages
+- View the store location on a map
+- Responsive layout for different screen sizes
 
-Products can be filtered by category:
+Product Categories:
 
 - 👗 Dress
 - 👖 Pants
 - 👗 Skirt
 - 👠 Shoes
 - 👚 Shirt
-
-Select **All Categories** to display all products.
-
-Click **Add to Cart** to add a product to the shopping cart.
-
-Inside the shopping cart you can:
-
-- ➕ Increase the quantity
-- ➖ Decrease the quantity
-- 🗑️ Remove an item
-- 🔢 View the total number of items
-- 💰 View the total price
-
-The shopping cart is saved in `localStorage`, so the selected items remain after refreshing the page.
-
-The website also includes:
-
-- 🏠 Shop page
-- ℹ️ About Us page
-- 📍 Contact Us page
-- 🗺️ Store location map
-- 📱 Responsive design
 
 ## 💻 Technologies
 
@@ -65,19 +54,21 @@ The website also includes:
 | ⚡ Vite | Development server and build tool |
 | 💾 localStorage | Saving the shopping cart between sessions |
 
-## ✨ Main Features
+## ✨ Functionality
 
 ### 🔎 Product Filtering
 
-Products can be filtered by category using Redux Toolkit.
+Products can be filtered by category using Redux Toolkit. Categories are stored separately and the selected category determines which products are displayed.
 
 ### 🛍️ Shopping Cart
 
 Users can add products to the cart, change quantities, and remove products.
 
+Cart totals are calculated using memoized selectors created with createSelector.
+
 ### 💾 Cart Persistence
 
-The shopping cart is stored in `localStorage` and restored after refreshing the page.
+Cart data is saved to localStorage and restored when the application is loaded or refreshed.
 
 ### 🧭 Navigation
 
