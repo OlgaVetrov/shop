@@ -52,6 +52,12 @@ body {
   color: #c5a46d;
 }
 
+.info-page .shop-nav .link {
+  flex: 0 0 calc(800px / 3);
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .cart-sidebar {
   background-color: white;
   padding: 20px;
@@ -386,6 +392,10 @@ body {
     text-align: center;
   }
 
+  .info-page .shop-nav .link {
+    flex: initial;
+  }
+
   .cart-sidebar:has(.cart-empty) {
     height: 157px;
   }
@@ -518,6 +528,10 @@ body {
   .link {
     padding: 8px 10px;
     font-size: 13px;
+  }
+
+  .info-page .shop-nav .link {
+    flex: initial;
   }
 
   .cart-sidebar:has(.cart-empty) {

@@ -7,20 +7,17 @@ import Cart from "./Components/Cart/Cart";
 const Home = () => {
   return (
     <div className="shop-layout">
-
       <div className="shop-column">
-
         <Navbar />
-        
+
         <main className="shop-content">
-
           <div className="filter-section">
-
             <div className="cont">
-              <h2 className="back">Free Standard Shipping</h2>
+              <h2 className="back">Free Standart Shipping</h2>
             </div>
 
             <AllCategories />
+
             <Filter />
           </div>
 

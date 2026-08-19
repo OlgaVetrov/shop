@@ -5,6 +5,10 @@ import cart from "./cartSlice";
 export const store = configureStore({
   reducer: {
     clothes,
-    cart
+    cart,
   },
+});
+
+store.subscribe(() => {
+  localStorage.setItem("cart", JSON.stringify(store.getState().cart.cartItems));
 });

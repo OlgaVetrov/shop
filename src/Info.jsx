@@ -1,23 +1,25 @@
+import { FaLocationDot, FaPhone, FaEnvelope, FaClock } from "react-icons/fa6";
+
 const Info = () => {
   return (
     <div className="contact-info">
       <div className="contact-item">
-        <h3>Location</h3>
+        <FaLocationDot />
         <p>120 King Street West, Toronto, ON</p>
       </div>
 
       <div className="contact-item">
-        <h3>Phone</h3>
+        <FaPhone />
         <p>+1 (416) 555-0188</p>
       </div>
 
       <div className="contact-item">
-        <h3>Email</h3>
+        <FaEnvelope />
         <p>hello@ourboutique.com</p>
       </div>
 
       <div className="contact-item">
-        <h3>Working Hours</h3>
+        <FaClock />
         <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
         <p>Saturday – Sunday: 10:00 AM – 4:00 PM</p>
       </div>
